@@ -159,12 +159,6 @@ compileTestKotlin {
     kotlinOptions.jvmTarget = "1.8"
 }
 
-kotlin {
-    experimental {
-        coroutines "enable"
-    }
-}
-
 repositories {
     jcenter()
 }
